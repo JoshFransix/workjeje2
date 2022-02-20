@@ -125,7 +125,7 @@ nav {
 }
 
 #intro .intro-content .intro-text h1 {
-  font-size: 44px;
+  font-size: 100%;
   line-height: 53px;
   color: #1b1b3a;
   width: 75%;
@@ -174,3 +174,5 @@ nav {
   width: 100%;
   border-radius: 10px;
 }
+
+/* Responsiveness */
