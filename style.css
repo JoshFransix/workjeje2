@@ -268,7 +268,7 @@ nav {
     height: 70vh;
   }
   #intro .intro-content .intro-text h1 {
-    fofnt
+    font-size: 180%;
   }
 
   #intro .intro-content .intro-text p {
@@ -291,5 +291,9 @@ nav {
 
   #intro .intro-content .intro-text .intro-btn {
     width: 85%;
+  }
+
+  .signUp {
+    display: block;
   }
 }
