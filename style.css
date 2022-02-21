@@ -294,6 +294,15 @@ nav {
   }
 
   .signUp {
-    display: block;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .nav-links li {
+    margin-right: 1rem;
+  }
+  #intro .intro-content .intro-text .intro-btn {
+    width: 100%;
   }
 }
