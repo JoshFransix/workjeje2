@@ -107,6 +107,7 @@ nav {
   margin: auto;
   width: 80%;
   margin-top: 2rem;
+  transition: all 0.3s ease-in-out;
   /* height: 10%; */
 }
 
@@ -203,8 +204,13 @@ nav {
   #intro {
     width: 86%;
   }
+
+  #intro .intro-content .intro-text h1 {
+    width: 92%;
+    font-size: 200%;
+  }
   #intro .intro-content .intro-text .intro-btn {
-    width: 88%;
+    width: 95%;
   }
 }
 
@@ -220,10 +226,11 @@ nav {
 
   #intro .intro-content .intro-text h1 {
     width: 92%;
-    font-size: 200%;
+    font-size: 170%;
   }
   #intro .intro-content .intro-text p {
     width: 85%;
+    font-size: 75%;
   }
 
   #intro .intro-content .intro-text .intro-btn {
