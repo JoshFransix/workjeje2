@@ -211,6 +211,7 @@ nav {
 @media screen and (max-width: 850px) {
   #header {
     width: 100vw;
+    padding: 2rem;
   }
   #intro {
     width: 90%;
@@ -219,6 +220,7 @@ nav {
 
   #intro .intro-content .intro-text h1 {
     width: 92%;
+    font-size: 200%;
   }
   #intro .intro-content .intro-text p {
     width: 85%;
@@ -232,5 +234,8 @@ nav {
     height: 70%;
     width: 80%;
     /* border-radius: 10px; */
+  }
+  #intro .intro-content .intro-text .intro-btn {
+    width: 100%;
   }
 }
