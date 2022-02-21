@@ -172,7 +172,65 @@ nav {
 #intro .intro-content .intro-img img {
   height: 90%;
   width: 100%;
-  border-radius: 10px;
+  /* border-radius: 50%; */
 }
 
 /* Responsiveness */
+@media screen and (max-width: 1400px) {
+  #intro {
+    margin-top: 4rem;
+  }
+  #intro .intro-content .intro-text h1 {
+    width: 85%;
+  }
+  #intro .intro-content .intro-text p {
+    width: 85%;
+  }
+  #intro .intro-content .intro-text .intro-btn {
+    width: 68%;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  #intro .intro-content .intro-text .intro-btn {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 1150px) {
+  #header {
+    width: 96vw;
+  }
+  #intro {
+    width: 86%;
+  }
+  #intro .intro-content .intro-text .intro-btn {
+    width: 88%;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  #header {
+    width: 100vw;
+  }
+  #intro {
+    width: 90%;
+    margin-top: 6rem;
+  }
+
+  #intro .intro-content .intro-text h1 {
+    width: 92%;
+  }
+  #intro .intro-content .intro-text p {
+    width: 85%;
+  }
+
+  #intro .intro-content .intro-text .intro-btn {
+    width: 88%;
+  }
+
+  #intro .intro-content .intro-img img {
+    height: 70%;
+    width: 80%;
+    /* border-radius: 10px; */
+  }
+}
